@@ -64,22 +64,6 @@ bot.hears('Do you need illustrations for business?', ctx => {
     )
 })
 
-// bot.hears('Add a task', ctx => {
-//     ctx.replyWithHTML(
-//         `Do you really want to add a task:\n\n`+
-//         `<i>${ctx.message.text}</i>`,
-//         yesNoKeyboard()
-//     )
-// })
-
-
-// bot.hears('Add you\'s task', ctx => {
-//     ctx.replyWithHTML(
-//         `Input any text:\n\n`+
-//         `<i>${ctx.message.text}</i>`
-//     )
-// })
-
 bot.hears('Привет', ctx => {
     ctx.reply('И вам здрасте!')
 })
