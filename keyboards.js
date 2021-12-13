@@ -21,5 +21,5 @@ export function yesNoKeyboard() {
     return Markup.inlineKeyboard([
         Markup.callbackButton('Yes', 'yes'),
         Markup.callbackButton('No', 'no')
-    ], {columns: 2})
+    ], {columns: 2}).extra()
 }
